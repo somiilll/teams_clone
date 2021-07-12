@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#video-grid{
+    display: flex;
+    justify-content: center;
+}
+
+video{
+    height: 30%;
+    width: 30%;
+    padding: 30px;
+}
+
+.team{
+    height: 662px;
+    display:flex;
+}
+
+.team_left{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.team_right{
+    display: flex;
+    flex: 0.2;
+    background-color: grey;
+    flex-direction: column;
+    border-left: 1px solid #3D3D42;
+}
+
+.main_videos{
+    flex-grow: 1;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_control{
+    display: flex;
+    background-color: #524e4f;
+    color: #b3afb0;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.team_control_block{
+    display: flex;
+}
+
+.team_control_button{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+ 
+.team_control_button:hover{
+    background-color:azure;
+}
+
+
+.leave{
+    color: red;
+    font-weight:bold;
+}
+
+.team_header{
+    color: white;
+    text-align: center;
+    display: flex;
+
+}
+
+.team_chat_window{
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.team_message_container{
+    padding: 9px 10px;
+    display: flex;
+}
+
+.team_message_container input{
+    flex-grow: 1;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.messages{
+    color: white;
+    list-style: none;
+}
+
+.unmute, .stop{
+    color: red;
+}
